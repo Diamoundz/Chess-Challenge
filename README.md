@@ -1,3 +1,5 @@
+Welcome to my chess bot project, a result of approximately one month's worth of effort, despite initially having no prior knowledge of chess algorithms. This project leverages widely-used algorithms in the chess bot domain, which I studied and fine-tuned to achieve my own results. One significant innovation I've introduced is the implementation of Piece Square Tables (PSTs) using decimal type numbers, a departure from the conventional uLong approach. While this approach may be marginally slower than using uLongs, it offers a substantial increase in space efficiency, particularly crucial given the limited token count. With double the token count, I can even envision the potential for running a Neural Network solely with the data stored in the script.
+
 # Chess Coding Challenge (C#)
 Welcome to the [chess coding challenge](https://youtu.be/iScy18pVR58)! This is a friendly competition in which your goal is to create a small chess bot (in C#) using the framework provided in this repository.
 Once submissions close, these bots will battle it out to discover which bot is best!
